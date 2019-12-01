@@ -1,0 +1,18 @@
+<h4>String Interporlation</h4>
+{{ aString }}
+<br> 
+{{ aNumber }}
+<hr>
+<h4>Property Binding</h4>
+<p [innerText]="aString"></p>
+<div>
+  <input type="text" [value]="aNumber">
+</div>
+<div [ngClass]="{'red-border': attachClass}" [ngStyle]="{'background-color': aColor}"> 
+  Text
+</div>
+<app-property-binding [name] = "'TEST'"></app-property-binding>
+<hr>
+<h4>Event Binding</h4>
+<button (click) ="onClick($event)">klick mich!</button>
+<app-event-binding (clicked)="aString = $event"></app-event-binding>

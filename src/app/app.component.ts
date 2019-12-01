@@ -2,9 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <h1>Databinding</h1>
+  <hr>
+  <app-databinding></app-databinding>
+  `
 })
 export class AppComponent {
-  title = 'udemy-angular-tutorial';
 }
