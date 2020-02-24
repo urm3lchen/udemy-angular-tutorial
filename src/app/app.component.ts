@@ -7,10 +7,13 @@ import { Component } from '@angular/core';
   <h1>Databinding</h1>
   <hr>
   <app-databinding></app-databinding>
+<<<<<<< HEAD
   <app-other>
     <p #paragraph>Irgendein Text</p>
   </app-other>
   <app-lifecycle></app-lifecycle>
+=======
+>>>>>>> ComponentsAndDatabinding
   `
 })
 export class AppComponent {

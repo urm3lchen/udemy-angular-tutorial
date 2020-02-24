@@ -8,7 +8,11 @@ import { Component, Input } from '@angular/core';
 })
 export class PropertyBindingComponent {
 
+<<<<<<< HEAD
   // tslint:disable-next-line:no-input-rename
   @Input('nameProp') name: string;
+=======
+  @Input() name: string;
+>>>>>>> ComponentsAndDatabinding
 
 }

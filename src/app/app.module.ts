@@ -6,14 +6,18 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
+<<<<<<< HEAD
 import { OtherComponent } from './other/other.component';
 import { LifecycleComponent } from './lifecycle.component';
+=======
+>>>>>>> ComponentsAndDatabinding
 
 @NgModule({
    declarations: [
       AppComponent,
       DatabindingComponent,
       PropertyBindingComponent,
+<<<<<<< HEAD
       EventBindingComponent,
       OtherComponent,
       LifecycleComponent
@@ -21,6 +25,12 @@ import { LifecycleComponent } from './lifecycle.component';
    imports: [
       BrowserModule,
       FormsModule
+=======
+      EventBindingComponent
+   ],
+   imports: [
+      BrowserModule
+>>>>>>> ComponentsAndDatabinding
    ],
    providers: [],
    bootstrap: [
